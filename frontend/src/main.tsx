@@ -11,11 +11,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
+import ProductDetailPage from "./pages/ProductDetailPage.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index path="/" element={<HomePage />} />
+      <Route path="/products/:id" element={<ProductDetailPage />} />
     </Route>
   )
 );
