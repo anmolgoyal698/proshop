@@ -13,7 +13,8 @@
   "author": "Anmol Goyal",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.8.4"
   },
   "devDependencies": {
     "concurrently": "^9.1.0",
